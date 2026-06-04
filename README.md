@@ -14,6 +14,22 @@ Primary capstone:
 
 The capstone should eventually model depot nodes, transfer paths, vehicle state, mission constraints, failure cases, telemetry, autonomy decisions, and engineering tradeoffs.
 
+## Current Priority: Module 000 — Foundation Bridge Track
+
+The apprenticeship now begins with a prerequisite bridge module before the harder aerospace/frontier lessons.
+
+This does not replace the advanced track. It comes before it.
+
+Current focus:
+
+- rebuild Python fluency
+- learn technical notation slowly
+- connect symbols to plain English
+- connect concepts to small Python programs
+- build vector, motion, and simulation intuition before advanced orbital mechanics
+
+Daily lesson agents should assign Module 000 lessons first. Advanced agents should pause or convert advanced topics into prerequisite decoder lessons until the bridge module is complete.
+
 ## Operating Principle
 
 Every lesson must produce evidence.
@@ -25,6 +41,7 @@ A lesson is not complete until at least one artifact exists in this repository.
 ```text
 curriculum/        Master curriculum map and module plans
 daily-lessons/     Daily lesson packets
+exercises/         Apprentice-written Python exercises and practice files
 notebooks/         Jupyter notebooks and exploratory analysis
 simulations/       Python simulations and reusable models
 memos/             Technical memos and written analysis
